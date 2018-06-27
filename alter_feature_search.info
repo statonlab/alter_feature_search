@@ -1,0 +1,4 @@
+name = Alter Feature Search
+description = Since we use feature/% as our alias for feature pages, we need to disable tripal's menu item that uses the same url to do feature searches.
+core = 7.x
+version = 7.x-1.0-alpha

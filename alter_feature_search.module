@@ -1,0 +1,9 @@
+<?php
+
+function alter_feature_search_menu_alter(&$items)
+{
+    if (isset($items['feature/%'])) {
+        $items['feature-search/%'] = $items['feature/%'];
+        unset($items['feature/%']);
+    }
+}
